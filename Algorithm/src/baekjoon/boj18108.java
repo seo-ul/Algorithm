@@ -9,8 +9,7 @@ public class boj18108 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String str = br.readLine();
-		StringTokenizer st = new StringTokenizer(str);
+		StringTokenizer st = new StringTokenizer(br.readLine());
 		int a = Integer.parseInt(st.nextToken());
 		int b = a-543;
 		System.out.println(b);
